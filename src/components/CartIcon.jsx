@@ -12,7 +12,7 @@ const CartIcon = () => {
         position: 'fixed',
         top: '20px',
         right: '20px',
-        zIndex: 9999,
+        zIndex: 1000,
         background: 'linear-gradient(135deg, var(--pink), var(--purple))',
         border: 'none',
         borderRadius: '50%',
