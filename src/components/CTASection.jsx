@@ -41,7 +41,7 @@ const CTASection = () => {
           marginBottom: '2.5rem',
           lineHeight: 1.7
         }}>
-          Junte-se às ARMYs que já estão colecionando os melhores photocards do BTS.<br />A sorte está esperando por você! 💜
+          Junte-se às ARMYs que já estão colecionando os melhores photocards do BTS.<br />A sorte está esperando por você!
         </p>
         <div className="hero-cta" style={{
           display: 'flex',
@@ -49,8 +49,8 @@ const CTASection = () => {
           justifyContent: 'center',
           flexWrap: 'wrap'
         }}>
-          <a href="#" className="btn-primary">🐚 Escolher minha concha</a>
-          <a href="https://wa.me/11978537707" className="btn-secondary">Falar no WhatsApp</a>
+          <a href="#" className="btn-primary">Escolher minha concha</a>
+          <a href="https://wa.me/1178537707" className="btn-secondary">Falar no WhatsApp</a>
         </div>
       </div>
     </section>

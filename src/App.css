@@ -149,3 +149,32 @@ body {
     padding: 4rem 1.5rem;
   }
 }
+
+/* Adicione no final do arquivo App.css */
+
+/* Garantir que o body tenha position relative para o ícone fixo */
+body {
+  position: relative;
+}
+
+/* Ajuste para o ícone do carrinho ficar visível */
+.fixed-cart-icon {
+  position: fixed !important;
+  top: 20px !important;
+  right: 20px !important;
+  z-index: 9999 !important;
+}
+
+/* Responsivo para mobile */
+@media (max-width: 768px) {
+  .fixed-cart-icon {
+    top: 10px !important;
+    right: 10px !important;
+    width: 50px !important;
+    height: 50px !important;
+  }
+  
+  .fixed-cart-icon span:first-child {
+    font-size: 24px !important;
+  }
+}
