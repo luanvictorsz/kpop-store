@@ -259,7 +259,6 @@ const Cart = () => {
               <button
                 onClick={() => {
                   setIsCheckoutOpen(true);
-                  setIsCartOpen(false);
                 }}
                 className="btn-primary"
                 style={{

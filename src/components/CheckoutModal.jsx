@@ -27,7 +27,6 @@ const CheckoutModal = ({ isOpen, onClose }) => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simular envio do pedido
     setTimeout(() => {
       console.log('Pedido realizado:', {
         items: cartItems,
@@ -38,11 +37,12 @@ const CheckoutModal = ({ isOpen, onClose }) => {
       setIsSubmitting(false);
       setIsComplete(true);
       
-      // Limpar carrinho após 2 segundos
       setTimeout(() => {
         clearCart();
-        onClose();
-        setIsComplete(false);
+        onClose(); 
+        if (typeof onCartClose === 'function') {
+          onCartClose();
+        }
         alert('Pedido realizado com sucesso! Em breve entraremos em contato.');
       }, 2000);
     }, 1500);
