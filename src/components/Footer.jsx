@@ -11,7 +11,9 @@ const Footer = () => {
       letterSpacing: '0.05em'
     }}>
       <p>
-        Feito com 💜 por fãs para fãs · <strong style={{ color: 'rgba(255,255,255,0.6)' }}>Concha da Sorte K-pop</strong> · Todos os direitos reservados
+        Feito com 💜 de fã para fã <br/>
+        <strong style={{ color: 'rgba(255,255,255,0.6)' }}>Misa K-pop store</strong> <br/>
+        Todos os direitos reservados
       </p>
     </footer>
   )
