@@ -27,13 +27,13 @@ const CTASection = () => {
           lineHeight: 1.15,
           marginBottom: '1.5rem'
         }}>
-          Qual concha<br />vai ser <em style={{
+          Seu mundo<br />K-pop começa <em style={{
             fontStyle: 'normal',
             background: 'linear-gradient(90deg, var(--gold), var(--pink))',
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',
             backgroundClip: 'text'
-          }}>a sua?</em>
+          }}>aqui</em>
         </h2>
         <p style={{
           fontSize: '1.1rem',
@@ -41,7 +41,8 @@ const CTASection = () => {
           marginBottom: '2.5rem',
           lineHeight: 1.7
         }}>
-          Junte-se às ARMYs que já estão colecionando os melhores photocards do BTS.<br />A sorte está esperando por você!
+          Junte-se às ARMYs que já estão colecionando os melhores photocards do BTS.<br />
+          Produtos exclusivos com embalagem especial e entrega para todo o Brasil!
         </p>
         <div className="hero-cta" style={{
           display: 'flex',
@@ -49,7 +50,7 @@ const CTASection = () => {
           justifyContent: 'center',
           flexWrap: 'wrap'
         }}>
-          <a href="#" className="btn-primary">Escolher minha concha</a>
+          <a href="#produtos" className="btn-primary">Ver produtos</a>
           <a href="https://wa.me/1178537707" className="btn-secondary">Falar no WhatsApp</a>
         </div>
       </div>

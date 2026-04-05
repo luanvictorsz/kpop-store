@@ -2,9 +2,9 @@ import React from 'react'
 
 const HowItWorks = () => {
   const steps = [
-    { num: '01', emoji: '🐚', title: 'Escolha sua concha', desc: 'Escolha um número ou concha pelo Instagram, WhatsApp ou Shopee. É rapidinho!' },
+    { num: '01', emoji: '🛍️', title: 'Escolha seu produto', desc: 'Navegue pelo catálogo e escolha pelo Instagram, WhatsApp ou Shopee. É rapidinho!' },
     { num: '02', emoji: '💳', title: 'Faça o pagamento', desc: 'Confirme o pagamento via Pix ou na plataforma escolhida. Seguro e simples.' },
-    { num: '03', emoji: '🎁', title: 'Receba seu prêmio!', desc: 'Seu prêmio surpresa chega com embalagem linda e cartinha personalizada. Todo mundo ganha!' }
+    { num: '03', emoji: '📦', title: 'Receba em casa!', desc: 'Seu pedido chega com embalagem especial e cartinha personalizada. Com muito carinho!' }
   ]
 
   return (
@@ -12,7 +12,7 @@ const HowItWorks = () => {
       <div className="section" style={{ padding: 0, textAlign: 'center', margin: '0 auto' }}>
         <div className="section-label">Como funciona</div>
         <h2 className="section-title">Simples assim! 🎉</h2>
-        <p className="section-desc" style={{ margin: '0 auto' }}>Sem complicação, sem letra miúda. Você escolhe, paga e a sorte decide o seu prêmio.</p>
+        <p className="section-desc" style={{ margin: '0 auto' }}>Sem complicação, sem letra miúda. Você escolhe, paga e recebe em casa.</p>
 
         <div className="how-grid" style={{
           display: 'grid',
@@ -34,7 +34,6 @@ const HowItWorks = () => {
               boxShadow: '0 4px 20px rgba(0,0,0,0.05)'
             }}>
               <div style={{
-                content: "''",
                 position: 'absolute',
                 top: 0,
                 left: 0,

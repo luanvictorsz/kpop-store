@@ -6,8 +6,8 @@ const Hero = () => {
     { emoji: '✨', top: '25%', right: '10%', delay: '1s' },
     { emoji: '💜', bottom: '20%', left: '12%', delay: '2s' },
     { emoji: '⭐', bottom: '30%', right: '8%', delay: '0.5s' },
-    { emoji: '🎴', top: '60%', left: '5%', delay: '1.5s' },
-    { emoji: '🃏', top: '10%', right: '25%', delay: '3s' },
+    { emoji: '📸', top: '60%', left: '5%', delay: '1.5s' },
+    { emoji: '🎶', top: '10%', right: '25%', delay: '3s' },
   ]
 
   return (
@@ -73,12 +73,12 @@ const Hero = () => {
           marginBottom: '0.5rem',
           animation: 'fadeUp 1s 0.2s ease both'
         }}>
-          Concha<br /><span style={{
+          Sua loja<br /><span style={{
             background: 'linear-gradient(90deg, var(--gold), var(--pink), var(--lavender))',
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',
             backgroundClip: 'text'
-          }}>da Sorte</span>
+          }}>K-pop</span>
         </h1>
         <p className="hero-subtitle" style={{
           fontSize: 'clamp(1rem, 2.5vw, 1.4rem)',
@@ -89,7 +89,7 @@ const Hero = () => {
           fontWeight: 300,
           animation: 'fadeUp 1s 0.3s ease both'
         }}>
-          Escolha sua concha e descubra um prêmio surpresa do mundo K-pop. Todos ganham algo especial — seja photocard, pôster ou kit completo!
+          Photocards, pôsteres, kits e muito mais do mundo K-pop. Produtos exclusivos com entrega para todo o Brasil!
         </p>
         <div className="hero-cta" style={{
           display: 'flex',
@@ -98,8 +98,8 @@ const Hero = () => {
           flexWrap: 'wrap',
           animation: 'fadeUp 1s 0.4s ease both'
         }}>
-          <a href="#como-funciona" className="btn-primary">✨ Quero participar!</a>
-          <a href="#premios" className="btn-secondary">Ver prêmios</a>
+          <a href="#produtos" className="btn-primary">✨ Ver produtos</a>
+          <a href="#promocoes" className="btn-secondary">Ver promoções</a>
         </div>
       </div>
 
