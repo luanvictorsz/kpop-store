@@ -62,7 +62,7 @@ const Hero = () => {
           marginBottom: '1.5rem',
           animation: 'fadeUp 1s 0.1s ease both'
         }}>
-          Misa K-pop Store
+          sua loja army
         </div>
         <h1 style={{
           fontFamily: "'Noto Serif KR', serif",
@@ -73,12 +73,12 @@ const Hero = () => {
           marginBottom: '0.5rem',
           animation: 'fadeUp 1s 0.2s ease both'
         }}>
-          Sua loja<br /><span style={{
+          Misa Kpop<br /><span style={{
             background: 'linear-gradient(90deg, var(--gold), var(--pink), var(--lavender))',
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',
             backgroundClip: 'text'
-          }}>K-pop</span>
+          }}>Store</span>
         </h1>
         <p className="hero-subtitle" style={{
           fontSize: 'clamp(1rem, 2.5vw, 1.4rem)',
