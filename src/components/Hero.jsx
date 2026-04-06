@@ -89,7 +89,7 @@ const Hero = () => {
           fontWeight: 300,
           animation: 'fadeUp 1s 0.3s ease both'
         }}>
-          Photocards, pôsteres, kits e muito mais do mundo K-pop. Produtos exclusivos com entrega para todo o Brasil!
+          Photocards, pôsteres, bottons e muito mais do mundo K-pop. Produtos exclusivos com entrega para todo o Brasil!
         </p>
         <div className="hero-cta" style={{
           display: 'flex',
